@@ -2,7 +2,7 @@ body {
 	background: blue;
 }
 #firstDiv {
-	background: blue;
+	background: rgb(115, 115, 156);
 	width: 100px;
 	height: 100px;
 }
@@ -11,12 +11,17 @@ body {
 	width: 100px;
 	height: 100px;
 }
-.absolutePositionExample {
+/*
+.absolutePositionExample,
+#secondDiv {
 	position: absolute;
 	top: 20px;
 	left: 20px;
 }
-.relativePositionExample {
+*/
+
+.relativePositionExample,
+#secondDiv {
 	position: relative;
 	top: 20px;
 	left: 20px;
